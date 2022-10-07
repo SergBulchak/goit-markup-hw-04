@@ -94,12 +94,27 @@ margin-left: 50px;
 }
 
 .contact-link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     font-weight: 500;
     line-height: 1.17;
     color: var(--primary-text-color);
     font-style: normal;
     }
+
+.header-contact-icon {
+    fill: tomato;
+    align-self: center;
+}
+
+.container-contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 
 .contact-link:focus,
 .contact-link:hover {
