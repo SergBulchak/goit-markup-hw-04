@@ -110,6 +110,9 @@ margin-left: 50px;
     align-self: center;
 }
 
+.current {
+    color: var(--accent-color);
+}
 .container-contacts {
     display: flex;
     align-items: center;
