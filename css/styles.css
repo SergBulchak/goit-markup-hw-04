@@ -350,6 +350,10 @@ margin-right: 0;
     padding-bottom: 30px;
 }
 
+.team-soc-list {
+    margin-top: 16px;
+}
+
 .team-soc-list,
 .clients-list {
     display: flex;
