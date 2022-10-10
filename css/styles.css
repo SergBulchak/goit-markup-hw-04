@@ -154,8 +154,6 @@ margin-left: 50px;
 }
 .footer {background-color: var(--secondary-background-color);
     padding: 60px 0 60px 0;
-    display: flex;
-    margin-right: 0;
 }
 
 .logo-foot {
@@ -200,13 +198,23 @@ margin-left: 50px;
     color: var(--accent-color);
 }
 
-.social {
+.footer >.container {
     display: flex;
-    padding-top: 12px;
-    color: #ffffff;
+    justify-content: center;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.footer-logo-adress {
+    display: block;
+}
+
+.social {
+    margin-right: auto;
 }
 
 .footer-soc-title {
+    text-align: start;
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
@@ -269,7 +277,7 @@ margin-left: 50px;
 }
 
 .hero-title {
-    width: 696px;
+    max-width: 696px;
     text-align: center;
     margin-top: 0;
     margin-left: auto;
@@ -283,23 +291,26 @@ margin-left: 50px;
     text-transform: uppercase;
 }
 .btn-service {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 32px;
-    background-color: #188ce8;
-    color: var(--primary-background-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
     border-radius: 4px;
     border: none;
-    cursor: var(--primary-background-color);
-    font-size: 16px;
+    min-width: 216px;
+    height: 50px;
+    color:var(--primary-background-color);
     font-weight: 700;
-    font-family: inherit;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 1.88;
     letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+}
+
+.btn-service:active {
+    background-color:#188ce8;
+}
+.btn {
+    display: block;
+    font-family: inherit;
+    cursor: pointer;
 }
 .visually-hidden {
     position: absolute;
